@@ -1,4 +1,4 @@
-# Sample React App
+# Structuing the React App
 
 This Repo meant for the Structuring the React App from Scratch.
 
