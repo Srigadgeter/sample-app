@@ -22,7 +22,8 @@
     "eject": "react-scripts eject",
     "prepare": "husky install",
     "eslint:run": "npx eslint ./src/",
-    "stylelint:run": "npx stylelint ./src/"
+    "stylelint:run": "npx stylelint ./src/",
+    "analyze": "source-map-explorer 'build/static/js/*.js'"
   },
   "husky": {
     "hooks": {
