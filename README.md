@@ -1,1 +1,1 @@
-# sample-app
+# Sample React App
