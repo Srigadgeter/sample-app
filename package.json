@@ -20,7 +20,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "eslint:run": "npx eslint ./src/",
+    "stylelint:run": "npx stylelint ./src/"
   },
   "husky": {
     "hooks": {
@@ -30,6 +32,9 @@
   "lint-staged": {
     "*.{js, jsx}": [
       "eslint --fix"
+    ],
+    "*.css": [
+      "stylelint --fix"
     ]
   },
   "eslintConfig": {
