@@ -2,6 +2,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+// router import
+import { BrowserRouter } from 'react-router-dom'
+
 // redux imports
 import { Provider } from 'react-redux'
 import store from './store'
@@ -16,10 +19,12 @@ import reportWebVitals from './reportWebVitals'
 import './index.css'
 
 ReactDOM.render(
-    <Provider store={store}>
-        <App />
-    </Provider>,
-    document.getElementById('root')
+  <Provider store={store}>
+    <BrowserRouter basename='/'>
+      <App />
+    </BrowserRouter>
+  </Provider>,
+  document.getElementById('root')
 )
 
 // If you want to start measuring performance in your app, pass a function
