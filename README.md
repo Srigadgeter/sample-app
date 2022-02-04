@@ -35,3 +35,4 @@ This Repo meant for the Structuring the React App from Scratch.
    1. Add source-map-explorer
    2. Add a new script for source-map-explorer
 10. Add & Configure StoryBook (dev deps)
+11. Add CSS Framework
