@@ -21,6 +21,7 @@ This Repo meant for the Structuring the React App from Scratch.
 6. Add & Configure Eslint (dev deps)
    1. Run `yarn create @eslint/config` & answer the question shown in the terminal
    2. Configure further the `.eslintrc.json` file
+   3. Configure `.eslintignore` file
 7. Add & Configure Husky & Lint-Staged packages (dev deps)
    1. Add a Packages: husky & lint-staged
    2. Configure the husky & lint-staged in package.json file
