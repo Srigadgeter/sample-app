@@ -29,7 +29,7 @@ This Repo meant for the Structuring the React App from Scratch.
 8. Add & Configure StyleLint package (dev deps)
    1. Add packages: stylelint, stylelint-order & stylelint-config-standard
    2. Add .stylelintrc file to the project folder
-   3. And configure `.stylelintrc` file
+   3. And configure `.stylelintrc` & `.stylelintignore` files
    4. And update the lint-staged configuration in the package.json to incorporate stylelint
 9. Add & Configure Source Map Explorer (dev deps)
    1. Add source-map-explorer
